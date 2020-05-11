@@ -57,9 +57,6 @@ GEM
       xcodeproj (>= 1.5.0, < 2.0.0)
       xcpretty (>= 0.2.4, < 1.0.0)
       xcpretty-travis-formatter (>= 0.0.3)
-    fastlane-plugin-appicon (0.10.0)
-      json
-      mini_magick (~> 4.5.1)
     gh_inspector (1.0.3)
     google-api-client (0.13.6)
       addressable (~> 2.5, >= 2.5.1)
@@ -80,7 +77,7 @@ GEM
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     httpclient (2.8.3)
-    json (2.1.0)
+    json (2.3.0)
     jwt (1.5.6)
     little-plugger (1.1.4)
     logging (2.2.2)
@@ -137,7 +134,6 @@ PLATFORMS
 
 DEPENDENCIES
   fastlane
-  fastlane-plugin-appicon
 
 BUNDLED WITH
    1.14.6
